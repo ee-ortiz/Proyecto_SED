@@ -1,5 +1,5 @@
 Analysis & Synthesis report for BB_SYSTEM
-Tue Oct 26 16:08:27 2021
+Wed Oct 27 15:57:13 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -88,15 +88,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 26 16:08:27 2021       ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 27 15:57:13 2021       ;
 ; Quartus Prime Version              ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                      ; BB_SYSTEM                                   ;
 ; Top-level Entity Name              ; BB_SYSTEM                                   ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 529                                         ;
-;     Total combinational functions  ; 527                                         ;
-;     Dedicated logic registers      ; 253                                         ;
-; Total registers                    ; 253                                         ;
+; Total logic elements               ; 410                                         ;
+;     Total combinational functions  ; 408                                         ;
+;     Dedicated logic registers      ; 244                                         ;
+; Total registers                    ; 244                                         ;
 ; Total pins                         ; 30                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -197,7 +197,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 12          ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
@@ -205,32 +205,30 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processor 3            ;   0.0%      ;
-;     Processor 4            ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                        ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                          ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
-; rtl/SC_STATEMACHINEBACKG.v       ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v    ;         ;
-; rtl/SC_RegBACKGTYPE.v            ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v         ;         ;
-; rtl/SC_STATEMACHINEPOINT.v       ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v    ;         ;
-; rtl/SC_RegPOINTTYPE.v            ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v         ;         ;
-; rtl/CC_BOTTOMSIDECOMPARATOR.v    ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v ;         ;
-; rtl/SC_upCOUNTER.v               ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v            ;         ;
-; rtl/CC_SEVENSEG1.v               ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v            ;         ;
-; rtl/CC_BIN2BCD1.v                ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v             ;         ;
-; rtl/SC_upSPEEDCOUNTER.v          ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v       ;         ;
-; rtl/CC_SPEEDCOMPARATOR.v         ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v      ;         ;
-; rtl/shift_reg_start_done.v       ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v    ;         ;
-; rtl/max7219_ctrl.v               ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v            ;         ;
-; rtl/SC_DEBOUNCE1.v               ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v            ;         ;
-; BB_SYSTEM.v                      ; yes             ; User Verilog HDL File  ; C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v                   ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                              ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
+; rtl/SC_STATEMACHINEBACKG.v       ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v    ;         ;
+; rtl/SC_RegBACKGTYPE.v            ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v         ;         ;
+; rtl/SC_STATEMACHINEPOINT.v       ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v    ;         ;
+; rtl/SC_RegPOINTTYPE.v            ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v         ;         ;
+; rtl/CC_BOTTOMSIDECOMPARATOR.v    ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v ;         ;
+; rtl/SC_upCOUNTER.v               ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v            ;         ;
+; rtl/CC_SEVENSEG1.v               ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v            ;         ;
+; rtl/CC_BIN2BCD1.v                ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v             ;         ;
+; rtl/SC_upSPEEDCOUNTER.v          ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v       ;         ;
+; rtl/CC_SPEEDCOMPARATOR.v         ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v      ;         ;
+; rtl/shift_reg_start_done.v       ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v    ;         ;
+; rtl/max7219_ctrl.v               ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v            ;         ;
+; rtl/SC_DEBOUNCE1.v               ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v            ;         ;
+; BB_SYSTEM.v                      ; yes             ; User Verilog HDL File  ; C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v                   ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------+
@@ -238,20 +236,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimated Total logic elements              ; 529                      ;
+; Estimated Total logic elements              ; 410                      ;
 ;                                             ;                          ;
-; Total combinational functions               ; 527                      ;
+; Total combinational functions               ; 408                      ;
 ; Logic element usage by number of LUT inputs ;                          ;
-;     -- 4 input functions                    ; 322                      ;
-;     -- 3 input functions                    ; 40                       ;
-;     -- <=2 input functions                  ; 165                      ;
+;     -- 4 input functions                    ; 156                      ;
+;     -- 3 input functions                    ; 96                       ;
+;     -- <=2 input functions                  ; 156                      ;
 ;                                             ;                          ;
 ; Logic elements by mode                      ;                          ;
-;     -- normal mode                          ; 422                      ;
-;     -- arithmetic mode                      ; 105                      ;
+;     -- normal mode                          ; 309                      ;
+;     -- arithmetic mode                      ; 99                       ;
 ;                                             ;                          ;
-; Total registers                             ; 253                      ;
-;     -- Dedicated logic registers            ; 253                      ;
+; Total registers                             ; 244                      ;
+;     -- Dedicated logic registers            ; 244                      ;
 ;     -- I/O registers                        ; 0                        ;
 ;                                             ;                          ;
 ; I/O pins                                    ; 30                       ;
@@ -259,9 +257,9 @@ https://fpgasoftware.intel.com/eula.
 ; Embedded Multiplier 9-bit elements          ; 0                        ;
 ;                                             ;                          ;
 ; Maximum fan-out node                        ; BB_SYSTEM_CLOCK_50~input ;
-; Maximum fan-out                             ; 253                      ;
-; Total fan-out                               ; 2773                     ;
-; Average fan-out                             ; 3.30                     ;
+; Maximum fan-out                             ; 244                      ;
+; Total fan-out                               ; 2345                     ;
+; Average fan-out                             ; 3.29                     ;
 +---------------------------------------------+--------------------------+
 
 
@@ -270,9 +268,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node                               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                        ; Entity Name          ; Library Name ;
 +----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------+----------------------+--------------+
-; |BB_SYSTEM                                               ; 527 (24)            ; 253 (0)                   ; 0           ; 0            ; 0       ; 0         ; 30   ; 0            ; |BB_SYSTEM                                                                                 ; BB_SYSTEM            ; work         ;
-;    |CC_BIN2BCD1:CC_BIN2BCD1_u0|                          ; 19 (19)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|CC_BIN2BCD1:CC_BIN2BCD1_u0                                                      ; CC_BIN2BCD1          ; work         ;
-;    |CC_SEVENSEG1:CC_SEVENSEG1_u0|                        ; 41 (41)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|CC_SEVENSEG1:CC_SEVENSEG1_u0                                                    ; CC_SEVENSEG1         ; work         ;
+; |BB_SYSTEM                                               ; 408 (20)            ; 244 (0)                   ; 0           ; 0            ; 0       ; 0         ; 30   ; 0            ; |BB_SYSTEM                                                                                 ; BB_SYSTEM            ; work         ;
+;    |CC_SEVENSEG1:CC_SEVENSEG1_u0|                        ; 19 (19)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|CC_SEVENSEG1:CC_SEVENSEG1_u0                                                    ; CC_SEVENSEG1         ; work         ;
 ;    |CC_SPEEDCOMPARATOR:CC_SPEEDCOMPARATOR_u0|            ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|CC_SPEEDCOMPARATOR:CC_SPEEDCOMPARATOR_u0                                        ; CC_SPEEDCOMPARATOR   ; work         ;
 ;    |SC_DEBOUNCE1:SC_DEBOUNCE1_u0|                        ; 26 (26)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_DEBOUNCE1:SC_DEBOUNCE1_u0                                                    ; SC_DEBOUNCE1         ; work         ;
 ;    |SC_DEBOUNCE1:SC_DEBOUNCE1_u1|                        ; 26 (26)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_DEBOUNCE1:SC_DEBOUNCE1_u1                                                    ; SC_DEBOUNCE1         ; work         ;
@@ -280,20 +277,19 @@ https://fpgasoftware.intel.com/eula.
 ;    |SC_DEBOUNCE1:SC_DEBOUNCE1_u3|                        ; 26 (26)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_DEBOUNCE1:SC_DEBOUNCE1_u3                                                    ; SC_DEBOUNCE1         ; work         ;
 ;    |SC_DEBOUNCE1:SC_DEBOUNCE1_u4|                        ; 26 (26)             ; 14 (14)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_DEBOUNCE1:SC_DEBOUNCE1_u4                                                    ; SC_DEBOUNCE1         ; work         ;
 ;    |SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|                  ; 9 (9)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2                                              ; SC_RegBACKGTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u0|                  ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u0                                              ; SC_RegPOINTTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u1|                  ; 19 (19)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u1                                              ; SC_RegPOINTTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u2|                  ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u2                                              ; SC_RegPOINTTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u3|                  ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u3                                              ; SC_RegPOINTTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u4|                  ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u4                                              ; SC_RegPOINTTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u5|                  ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u5                                              ; SC_RegPOINTTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u6|                  ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u6                                              ; SC_RegPOINTTYPE      ; work         ;
-;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u7|                  ; 16 (16)             ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u7                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u0|                  ; 9 (9)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u0                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u1|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u1                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u2|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u2                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u3|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u3                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u4|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u4                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u5|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u5                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u6|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u6                                              ; SC_RegPOINTTYPE      ; work         ;
+;    |SC_RegPOINTTYPE:SC_RegPOINTTYPE_u7|                  ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u7                                              ; SC_RegPOINTTYPE      ; work         ;
 ;    |SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|        ; 6 (6)               ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0                                    ; SC_STATEMACHINEBACKG ; work         ;
-;    |SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|        ; 14 (14)             ; 7 (7)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0                                    ; SC_STATEMACHINEPOINT ; work         ;
-;    |SC_upCOUNTER:SC_upCOUNTER_u0|                        ; 8 (8)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_upCOUNTER:SC_upCOUNTER_u0                                                    ; SC_upCOUNTER         ; work         ;
+;    |SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|        ; 13 (13)             ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0                                    ; SC_STATEMACHINEPOINT ; work         ;
 ;    |SC_upSPEEDCOUNTER:SC_upSPEEDCOUNTER_u0|              ; 23 (23)             ; 23 (23)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|SC_upSPEEDCOUNTER:SC_upSPEEDCOUNTER_u0                                          ; SC_upSPEEDCOUNTER    ; work         ;
-;    |matrix_ctrl:matrix_ctrl_unit_0|                      ; 114 (35)            ; 52 (20)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl          ; work         ;
-;       |shift_reg_start_done:shift_reg_start_done_unit_0| ; 79 (79)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done ; work         ;
+;    |matrix_ctrl:matrix_ctrl_unit_0|                      ; 115 (34)            ; 52 (20)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0                                                  ; matrix_ctrl          ; work         ;
+;       |shift_reg_start_done:shift_reg_start_done_unit_0| ; 81 (81)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0 ; shift_reg_start_done ; work         ;
 +----------------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -341,21 +337,20 @@ Encoding Type:  One-Hot
 
 
 Encoding Type:  One-Hot
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; State Machine - |BB_SYSTEM|SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register                                                                                                                                                                                                                        ;
-+------------------------------+------------------------------+-----------------------------+-----------------------------+---------------------------+-----------------------------+------------------------------+------------------------------+------------------------------+------------------------------+
-; Name                         ; STATE_Register.STATE_RIGHT_0 ; STATE_Register.STATE_LEFT_0 ; STATE_Register.STATE_DOWN_0 ; STATE_Register.STATE_UP_0 ; STATE_Register.STATE_INIT_0 ; STATE_Register.STATE_CHECK_0 ; STATE_Register.STATE_START_0 ; STATE_Register.STATE_RESET_0 ; STATE_Register.STATE_CHECK_1 ;
-+------------------------------+------------------------------+-----------------------------+-----------------------------+---------------------------+-----------------------------+------------------------------+------------------------------+------------------------------+------------------------------+
-; STATE_Register.STATE_RESET_0 ; 0                            ; 0                           ; 0                           ; 0                         ; 0                           ; 0                            ; 0                            ; 0                            ; 0                            ;
-; STATE_Register.STATE_START_0 ; 0                            ; 0                           ; 0                           ; 0                         ; 0                           ; 0                            ; 1                            ; 1                            ; 0                            ;
-; STATE_Register.STATE_CHECK_0 ; 0                            ; 0                           ; 0                           ; 0                         ; 0                           ; 1                            ; 0                            ; 1                            ; 0                            ;
-; STATE_Register.STATE_INIT_0  ; 0                            ; 0                           ; 0                           ; 0                         ; 1                           ; 0                            ; 0                            ; 1                            ; 0                            ;
-; STATE_Register.STATE_UP_0    ; 0                            ; 0                           ; 0                           ; 1                         ; 0                           ; 0                            ; 0                            ; 1                            ; 0                            ;
-; STATE_Register.STATE_DOWN_0  ; 0                            ; 0                           ; 1                           ; 0                         ; 0                           ; 0                            ; 0                            ; 1                            ; 0                            ;
-; STATE_Register.STATE_LEFT_0  ; 0                            ; 1                           ; 0                           ; 0                         ; 0                           ; 0                            ; 0                            ; 1                            ; 0                            ;
-; STATE_Register.STATE_RIGHT_0 ; 1                            ; 0                           ; 0                           ; 0                         ; 0                           ; 0                            ; 0                            ; 1                            ; 0                            ;
-; STATE_Register.STATE_CHECK_1 ; 0                            ; 0                           ; 0                           ; 0                         ; 0                           ; 0                            ; 0                            ; 1                            ; 1                            ;
-+------------------------------+------------------------------+-----------------------------+-----------------------------+---------------------------+-----------------------------+------------------------------+------------------------------+------------------------------+------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |BB_SYSTEM|SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register                                                                                                                                                                                            ;
++------------------------------+------------------------------+------------------------------+-----------------------------+-----------------------------+-----------------------------+------------------------------+------------------------------+------------------------------+
+; Name                         ; STATE_Register.STATE_CHECK_1 ; STATE_Register.STATE_RIGHT_0 ; STATE_Register.STATE_LEFT_0 ; STATE_Register.STATE_DOWN_0 ; STATE_Register.STATE_INIT_0 ; STATE_Register.STATE_CHECK_0 ; STATE_Register.STATE_START_0 ; STATE_Register.STATE_RESET_0 ;
++------------------------------+------------------------------+------------------------------+-----------------------------+-----------------------------+-----------------------------+------------------------------+------------------------------+------------------------------+
+; STATE_Register.STATE_RESET_0 ; 0                            ; 0                            ; 0                           ; 0                           ; 0                           ; 0                            ; 0                            ; 0                            ;
+; STATE_Register.STATE_START_0 ; 0                            ; 0                            ; 0                           ; 0                           ; 0                           ; 0                            ; 1                            ; 1                            ;
+; STATE_Register.STATE_CHECK_0 ; 0                            ; 0                            ; 0                           ; 0                           ; 0                           ; 1                            ; 0                            ; 1                            ;
+; STATE_Register.STATE_INIT_0  ; 0                            ; 0                            ; 0                           ; 0                           ; 1                           ; 0                            ; 0                            ; 1                            ;
+; STATE_Register.STATE_DOWN_0  ; 0                            ; 0                            ; 0                           ; 1                           ; 0                           ; 0                            ; 0                            ; 1                            ;
+; STATE_Register.STATE_LEFT_0  ; 0                            ; 0                            ; 1                           ; 0                           ; 0                           ; 0                            ; 0                            ; 1                            ;
+; STATE_Register.STATE_RIGHT_0 ; 0                            ; 1                            ; 0                           ; 0                           ; 0                           ; 0                            ; 0                            ; 1                            ;
+; STATE_Register.STATE_CHECK_1 ; 1                            ; 0                            ; 0                           ; 0                           ; 0                           ; 0                            ; 0                            ; 1                            ;
++------------------------------+------------------------------+------------------------------+-----------------------------+-----------------------------+-----------------------------+------------------------------+------------------------------+------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------+
@@ -375,28 +370,22 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 ; Register name                                                             ; Reason for Removal                                                                    ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
+; SC_upCOUNTER:SC_upCOUNTER_u0|upCOUNTER_Register[0..7]                     ; Stuck at GND due to stuck port clock_enable                                           ;
 ; matrix_ctrl:matrix_ctrl_unit_0|Trig_Register1                             ; Merged with matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0                           ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[1..7]            ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[0]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u1|RegBACKGTYPE_Register[0..7]            ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[0]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u3|RegBACKGTYPE_Register[0..7]            ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[0]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u5|RegBACKGTYPE_Register[0..7]            ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[0]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u6|RegBACKGTYPE_Register[0..7]            ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[0]               ;
+; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[0..7]            ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[0]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[0]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[0]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[0]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[0]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[1]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[1]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[1]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[1]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[2]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[2]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[2]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[2]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[3]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[3]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[3]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[3]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[4]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[4]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[4]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[4]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[5]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[5]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[5]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[5]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[6]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[6]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[6]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[6]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4|RegBACKGTYPE_Register[7]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[7]               ;
-; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7|RegBACKGTYPE_Register[7]               ; Merged with SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[7]               ;
 ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u0|RegBACKGTYPE_Register[0]               ; Stuck at GND due to stuck port data_in                                                ;
 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~3                           ; Merged with CC_SEVENSEG1:CC_SEVENSEG1_u0|count[0]                                     ;
 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~2                           ; Merged with CC_SEVENSEG1:CC_SEVENSEG1_u0|count[1]                                     ;
@@ -414,6 +403,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register~4             ; Lost fanout                                                                           ;
 ; SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register~5             ; Lost fanout                                                                           ;
 ; SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register~6             ; Lost fanout                                                                           ;
+; SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register~7             ; Lost fanout                                                                           ;
 ; SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register.STATE_START_0 ; Merged with SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_START_0 ;
 ; SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0|STATE_Register.STATE_RESET_0 ; Merged with SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_RESET_0 ;
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST                     ; Stuck at GND due to stuck port data_in                                                ;
@@ -421,7 +411,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DISPLAY_TEST_WAIT2FINISH         ; Stuck at GND due to stuck port data_in                                                ;
 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~1                           ; Merged with CC_SEVENSEG1:CC_SEVENSEG1_u0|count[2]                                     ;
 ; CC_SEVENSEG1:CC_SEVENSEG1_u0|count[3]                                     ; Merged with matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0                           ;
-; Total Number of Removed Registers = 80                                    ;                                                                                       ;
+; Total Number of Removed Registers = 89                                    ;                                                                                       ;
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------------------+
 
 
@@ -440,31 +430,30 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 253   ;
+; Total registers                              ; 244   ;
 ; Number of registers using Synchronous Clear  ; 135   ;
-; Number of registers using Synchronous Load   ; 11    ;
-; Number of registers using Asynchronous Clear ; 183   ;
+; Number of registers using Synchronous Load   ; 74    ;
+; Number of registers using Asynchronous Clear ; 174   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 151   ;
+; Number of registers using Clock Enable       ; 144   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                       ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                             ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |BB_SYSTEM|SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[6]                                 ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[10] ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[14]   ;
-; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[11]   ;
-; 6:1                ; 64 bits   ; 256 LEs       ; 192 LEs              ; 64 LEs                 ; Yes        ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u1|RegPOINTTYPE_Register[0]                                 ;
-; 12:1               ; 4 bits    ; 32 LEs        ; 28 LEs               ; 4 LEs                  ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[4]    ;
-; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |BB_SYSTEM|data_max[2]                                                                                 ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 6 LEs                ; 2 LEs                  ; No         ; |BB_SYSTEM|CC_SEVENSEG1:CC_SEVENSEG1_u0|Mux1                                                           ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|state_reg                                                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |BB_SYSTEM|SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[4]                                ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[4] ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[12]  ;
+; 4:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[11]  ;
+; 5:1                ; 64 bits   ; 192 LEs       ; 128 LEs              ; 64 LEs                 ; Yes        ; |BB_SYSTEM|SC_RegPOINTTYPE:SC_RegPOINTTYPE_u7|RegPOINTTYPE_Register[5]                                ;
+; 12:1               ; 4 bits    ; 32 LEs        ; 28 LEs               ; 4 LEs                  ; Yes        ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[6]   ;
+; 8:1                ; 4 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |BB_SYSTEM|data_max[3]                                                                                ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |BB_SYSTEM|matrix_ctrl:matrix_ctrl_unit_0|state_reg                                                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------+
@@ -483,7 +472,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; DATA_FIXED_INITREGPOINT_2 ; 00000000 ; Unsigned Binary                    ;
 ; DATA_FIXED_INITREGPOINT_1 ; 00000000 ; Unsigned Binary                    ;
 ; DATA_FIXED_INITREGPOINT_0 ; 00010000 ; Unsigned Binary                    ;
-; DATA_FIXED_INITREGBACKG_7 ; 11100000 ; Unsigned Binary                    ;
+; DATA_FIXED_INITREGBACKG_7 ; 00000000 ; Unsigned Binary                    ;
 ; DATA_FIXED_INITREGBACKG_6 ; 00000000 ; Unsigned Binary                    ;
 ; DATA_FIXED_INITREGBACKG_5 ; 00000000 ; Unsigned Binary                    ;
 ; DATA_FIXED_INITREGBACKG_4 ; 11100000 ; Unsigned Binary                    ;
@@ -639,7 +628,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Parameter Name          ; Value    ; Type                                       ;
 +-------------------------+----------+--------------------------------------------+
 ; RegBACKGTYPE_DATAWIDTH  ; 8        ; Signed Integer                             ;
-; DATA_FIXED_INITREGBACKG ; 11100000 ; Unsigned Binary                            ;
+; DATA_FIXED_INITREGBACKG ; 00000000 ; Unsigned Binary                            ;
 +-------------------------+----------+--------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -870,26 +859,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 30                          ;
-; cycloneiii_ff         ; 253                         ;
-;     CLR               ; 32                          ;
-;     ENA CLR           ; 60                          ;
-;     ENA CLR SCLR      ; 80                          ;
+; cycloneiii_ff         ; 244                         ;
+;     CLR               ; 30                          ;
+;     ENA CLR           ; 53                          ;
+;     ENA CLR SCLR      ; 17                          ;
+;     ENA CLR SCLR SLD  ; 63                          ;
 ;     ENA CLR SLD       ; 11                          ;
 ;     SCLR              ; 55                          ;
 ;     plain             ; 15                          ;
-; cycloneiii_lcell_comb ; 531                         ;
-;     arith             ; 105                         ;
-;         2 data inputs ; 102                         ;
-;         3 data inputs ; 3                           ;
-;     normal            ; 426                         ;
-;         0 data inputs ; 1                           ;
-;         1 data inputs ; 15                          ;
-;         2 data inputs ; 51                          ;
-;         3 data inputs ; 37                          ;
-;         4 data inputs ; 322                         ;
+; cycloneiii_lcell_comb ; 413                         ;
+;     arith             ; 99                          ;
+;         2 data inputs ; 97                          ;
+;         3 data inputs ; 2                           ;
+;     normal            ; 314                         ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 14                          ;
+;         2 data inputs ; 48                          ;
+;         3 data inputs ; 94                          ;
+;         4 data inputs ; 156                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 9.00                        ;
-; Average LUT depth     ; 3.27                        ;
+; Max LUT depth         ; 7.00                        ;
+; Average LUT depth     ; 2.75                        ;
 +-----------------------+-----------------------------+
 
 
@@ -908,88 +898,95 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Oct 26 16:08:15 2021
+    Info: Processing started: Wed Oct 27 15:57:02 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off BB_SYSTEM -c BB_SYSTEM
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sc_statemachinebackg.v
-    Info (12023): Found entity 1: SC_STATEMACHINEBACKG File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v Line: 21
+    Info (12023): Found entity 1: SC_STATEMACHINEBACKG File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sc_regbackgtype.v
-    Info (12023): Found entity 1: SC_RegBACKGTYPE File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v Line: 21
+    Info (12023): Found entity 1: SC_RegBACKGTYPE File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sc_statemachinepoint.v
-    Info (12023): Found entity 1: SC_STATEMACHINEPOINT File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v Line: 21
+    Info (12023): Found entity 1: SC_STATEMACHINEPOINT File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sc_regpointtype.v
-    Info (12023): Found entity 1: SC_RegPOINTTYPE File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v Line: 21
+    Info (12023): Found entity 1: SC_RegPOINTTYPE File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/cc_bottomsidecomparator.v
-    Info (12023): Found entity 1: CC_BOTTOMSIDECOMPARATOR File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v Line: 21
+    Info (12023): Found entity 1: CC_BOTTOMSIDECOMPARATOR File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sc_upcounter.v
-    Info (12023): Found entity 1: SC_upCOUNTER File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v Line: 21
+    Info (12023): Found entity 1: SC_upCOUNTER File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/cc_sevenseg1.v
-    Info (12023): Found entity 1: CC_SEVENSEG1 File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v Line: 24
+    Info (12023): Found entity 1: CC_SEVENSEG1 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v Line: 24
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/cc_bin2bcd1.v
-    Info (12023): Found entity 1: CC_BIN2BCD1 File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 19
+    Info (12023): Found entity 1: CC_BIN2BCD1 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 19
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sc_upspeedcounter.v
-    Info (12023): Found entity 1: SC_upSPEEDCOUNTER File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v Line: 21
+    Info (12023): Found entity 1: SC_upSPEEDCOUNTER File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/cc_speedcomparator.v
-    Info (12023): Found entity 1: CC_SPEEDCOMPARATOR File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v Line: 21
+    Info (12023): Found entity 1: CC_SPEEDCOMPARATOR File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/shift_reg_start_done.v
-    Info (12023): Found entity 1: shift_reg_start_done File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v Line: 34
+    Info (12023): Found entity 1: shift_reg_start_done File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/max7219_ctrl.v
-    Info (12023): Found entity 1: matrix_ctrl File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 18
+    Info (12023): Found entity 1: matrix_ctrl File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 18
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/sc_debounce1.v
-    Info (12023): Found entity 1: SC_DEBOUNCE1 File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v Line: 44
+    Info (12023): Found entity 1: SC_DEBOUNCE1 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v Line: 44
 Info (12021): Found 1 design units, including 1 entities, in source file bb_system.v
-    Info (12023): Found entity 1: BB_SYSTEM File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 21
+    Info (12023): Found entity 1: BB_SYSTEM File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 21
 Info (12127): Elaborating entity "BB_SYSTEM" for the top level hierarchy
-Info (12128): Elaborating entity "SC_DEBOUNCE1" for hierarchy "SC_DEBOUNCE1:SC_DEBOUNCE1_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 170
-Warning (10230): Verilog HDL assignment warning at SC_DEBOUNCE1.v(70): truncated value with size 32 to match size of target (11) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v Line: 70
-Info (12128): Elaborating entity "SC_RegPOINTTYPE" for hierarchy "SC_RegPOINTTYPE:SC_RegPOINTTYPE_u7" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 214
-Info (12128): Elaborating entity "SC_RegPOINTTYPE" for hierarchy "SC_RegPOINTTYPE:SC_RegPOINTTYPE_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 298
-Info (12128): Elaborating entity "SC_STATEMACHINEPOINT" for hierarchy "SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 314
-Info (12128): Elaborating entity "SC_RegBACKGTYPE" for hierarchy "SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 328
-Info (12128): Elaborating entity "SC_RegBACKGTYPE" for hierarchy "SC_RegBACKGTYPE:SC_RegBACKGTYPE_u6" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 338
-Info (12128): Elaborating entity "SC_STATEMACHINEBACKG" for hierarchy "SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 409
-Info (12128): Elaborating entity "SC_upSPEEDCOUNTER" for hierarchy "SC_upSPEEDCOUNTER:SC_upSPEEDCOUNTER_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 418
-Info (12128): Elaborating entity "CC_SPEEDCOMPARATOR" for hierarchy "CC_SPEEDCOMPARATOR:CC_SPEEDCOMPARATOR_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 423
-Info (12128): Elaborating entity "CC_BOTTOMSIDECOMPARATOR" for hierarchy "CC_BOTTOMSIDECOMPARATOR:CC_BOTTOMSIDECOMPARATOR_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 431
-Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 464
-Warning (10036): Verilog HDL or VHDL warning at max7219_ctrl.v(58): object "Trig_SignalNEG" assigned a value but never read File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 58
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(50): truncated value with size 32 to match size of target (4) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 50
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(51): truncated value with size 32 to match size of target (4) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 51
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(260): truncated value with size 32 to match size of target (4) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 260
-Warning (10240): Verilog HDL Always Construct warning at max7219_ctrl.v(154): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 154
-Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(278): truncated value with size 32 to match size of target (3) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 278
-Info (10041): Inferred latch for "ctrl_sr[0]" at max7219_ctrl.v(154) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 154
-Info (10041): Inferred latch for "ctrl_sr[1]" at max7219_ctrl.v(154) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 154
-Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 109
-Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(69): truncated value with size 32 to match size of target (16) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v Line: 69
-Info (12128): Elaborating entity "CC_BIN2BCD1" for hierarchy "CC_BIN2BCD1:CC_BIN2BCD1_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 507
-Warning (10230): Verilog HDL assignment warning at CC_BIN2BCD1.v(36): truncated value with size 32 to match size of target (4) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 36
-Warning (10230): Verilog HDL assignment warning at CC_BIN2BCD1.v(42): truncated value with size 32 to match size of target (4) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 42
-Warning (10230): Verilog HDL assignment warning at CC_BIN2BCD1.v(44): truncated value with size 32 to match size of target (4) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 44
-Info (12128): Elaborating entity "CC_SEVENSEG1" for hierarchy "CC_SEVENSEG1:CC_SEVENSEG1_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 526
-Warning (10230): Verilog HDL assignment warning at CC_SEVENSEG1.v(40): truncated value with size 32 to match size of target (15) File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v Line: 40
-Info (12128): Elaborating entity "SC_upCOUNTER" for hierarchy "SC_upCOUNTER:SC_upCOUNTER_u0" File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 534
+Info (12128): Elaborating entity "SC_DEBOUNCE1" for hierarchy "SC_DEBOUNCE1:SC_DEBOUNCE1_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 170
+Warning (10230): Verilog HDL assignment warning at SC_DEBOUNCE1.v(70): truncated value with size 32 to match size of target (11) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v Line: 70
+Info (12128): Elaborating entity "SC_RegPOINTTYPE" for hierarchy "SC_RegPOINTTYPE:SC_RegPOINTTYPE_u7" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 214
+Info (12128): Elaborating entity "SC_RegPOINTTYPE" for hierarchy "SC_RegPOINTTYPE:SC_RegPOINTTYPE_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 298
+Info (12128): Elaborating entity "SC_STATEMACHINEPOINT" for hierarchy "SC_STATEMACHINEPOINT:SC_STATEMACHINEPOINT_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 313
+Info (12128): Elaborating entity "SC_RegBACKGTYPE" for hierarchy "SC_RegBACKGTYPE:SC_RegBACKGTYPE_u7" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 327
+Info (12128): Elaborating entity "SC_RegBACKGTYPE" for hierarchy "SC_RegBACKGTYPE:SC_RegBACKGTYPE_u4" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 357
+Info (12128): Elaborating entity "SC_STATEMACHINEBACKG" for hierarchy "SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 408
+Info (12128): Elaborating entity "SC_upSPEEDCOUNTER" for hierarchy "SC_upSPEEDCOUNTER:SC_upSPEEDCOUNTER_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 417
+Info (12128): Elaborating entity "CC_SPEEDCOMPARATOR" for hierarchy "CC_SPEEDCOMPARATOR:CC_SPEEDCOMPARATOR_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 422
+Info (12128): Elaborating entity "CC_BOTTOMSIDECOMPARATOR" for hierarchy "CC_BOTTOMSIDECOMPARATOR:CC_BOTTOMSIDECOMPARATOR_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 430
+Info (12128): Elaborating entity "matrix_ctrl" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 463
+Warning (10036): Verilog HDL or VHDL warning at max7219_ctrl.v(58): object "Trig_SignalNEG" assigned a value but never read File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 58
+Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(50): truncated value with size 32 to match size of target (4) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 50
+Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(51): truncated value with size 32 to match size of target (4) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 51
+Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(260): truncated value with size 32 to match size of target (4) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 260
+Warning (10240): Verilog HDL Always Construct warning at max7219_ctrl.v(154): inferring latch(es) for variable "ctrl_sr", which holds its previous value in one or more paths through the always construct File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 154
+Warning (10230): Verilog HDL assignment warning at max7219_ctrl.v(278): truncated value with size 32 to match size of target (3) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 278
+Info (10041): Inferred latch for "ctrl_sr[0]" at max7219_ctrl.v(154) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 154
+Info (10041): Inferred latch for "ctrl_sr[1]" at max7219_ctrl.v(154) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 154
+Info (12128): Elaborating entity "shift_reg_start_done" for hierarchy "matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v Line: 109
+Warning (10230): Verilog HDL assignment warning at shift_reg_start_done.v(69): truncated value with size 32 to match size of target (16) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v Line: 69
+Info (12128): Elaborating entity "CC_BIN2BCD1" for hierarchy "CC_BIN2BCD1:CC_BIN2BCD1_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 506
+Warning (10230): Verilog HDL assignment warning at CC_BIN2BCD1.v(36): truncated value with size 32 to match size of target (4) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 36
+Warning (10230): Verilog HDL assignment warning at CC_BIN2BCD1.v(42): truncated value with size 32 to match size of target (4) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 42
+Warning (10230): Verilog HDL assignment warning at CC_BIN2BCD1.v(44): truncated value with size 32 to match size of target (4) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v Line: 44
+Info (12128): Elaborating entity "CC_SEVENSEG1" for hierarchy "CC_SEVENSEG1:CC_SEVENSEG1_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 525
+Warning (10230): Verilog HDL assignment warning at CC_SEVENSEG1.v(40): truncated value with size 32 to match size of target (15) File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v Line: 40
+Info (12128): Elaborating entity "SC_upCOUNTER" for hierarchy "SC_upCOUNTER:SC_upCOUNTER_u0" File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 533
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[7]" is stuck at GND File: C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[0]" is stuck at GND File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[1]" is stuck at GND File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[2]" is stuck at GND File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[3]" is stuck at GND File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[4]" is stuck at GND File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[5]" is stuck at GND File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[6]" is stuck at VCC File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
+    Warning (13410): Pin "BB_SYSTEM_display_OutBUS[7]" is stuck at GND File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v Line: 74
 Info (286030): Timing-Driven Synthesis is running
-Info (17049): 14 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.map.smsg
+Info (17049): 15 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 559 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 440 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 7 input pins
     Info (21059): Implemented 23 output pins
-    Info (21061): Implemented 529 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 14 warnings
-    Info: Peak virtual memory: 4768 megabytes
-    Info: Processing ended: Tue Oct 26 16:08:27 2021
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:24
+    Info (21061): Implemented 410 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 21 warnings
+    Info: Peak virtual memory: 4763 megabytes
+    Info: Processing ended: Wed Oct 27 15:57:13 2021
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Users/wartr/Downloads/PRJ0_EJEMPLO_1/BB_SYSTEM.map.smsg.
+The suppressed messages can be found in C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.map.smsg.
 
 

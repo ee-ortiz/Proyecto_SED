@@ -80,11 +80,9 @@ begin
 						else if (SC_STATEMACHINEPOINT_rightButton_InLow == 1'b0) STATE_Signal = STATE_RIGHT_0;
 						else STATE_Signal = STATE_CHECK_0;
 		STATE_INIT_0: 	STATE_Signal = STATE_CHECK_1;
-		STATE_UP_0: 	STATE_Signal = STATE_CHECK_1;
 		STATE_DOWN_0: 	STATE_Signal = STATE_CHECK_1;
 		STATE_LEFT_0:  	STATE_Signal = STATE_CHECK_1;
 		STATE_RIGHT_0:  STATE_Signal = STATE_CHECK_1;
-
 		STATE_CHECK_1: if (SC_STATEMACHINEPOINT_startButton_InLow == 1'b0) STATE_Signal = STATE_CHECK_1;
 						else if (SC_STATEMACHINEPOINT_downButton_InLow == 1'b0) STATE_Signal = STATE_CHECK_1;
 						else if (SC_STATEMACHINEPOINT_leftButton_InLow == 1'b0) STATE_Signal = STATE_CHECK_1;
@@ -156,16 +154,6 @@ begin
 		begin
 			SC_STATEMACHINEPOINT_clear_OutLow = 1'b0;
 			SC_STATEMACHINEPOINT_load0_OutLow = 1'b1;
-			SC_STATEMACHINEPOINT_load1_OutLow = 1'b1;
-			SC_STATEMACHINEPOINT_shiftselection_Out  = 2'b11; 
-		end
-//=========================================================
-// STATE_UP_0
-//=========================================================
-	STATE_UP_0 :	
-		begin
-			SC_STATEMACHINEPOINT_clear_OutLow = 1'b1;
-			SC_STATEMACHINEPOINT_load0_OutLow = 1'b0;
 			SC_STATEMACHINEPOINT_load1_OutLow = 1'b1;
 			SC_STATEMACHINEPOINT_shiftselection_Out  = 2'b11; 
 		end
