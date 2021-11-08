@@ -28,7 +28,8 @@ module SC_STATEMACHINEBACKG (
 	SC_STATEMACHINEBACKG_CLOCK_50,
 	SC_STATEMACHINEBACKG_RESET_InHigh,
 	SC_STATEMACHINEBACKG_startButton_InLow,
-	SC_STATEMACHINEBACKG_T0_InLow
+	SC_STATEMACHINEBACKG_T0_InLow,
+	SC_STATEMACHINEBACKG_crash_InLow
 );	
 //=======================================================
 //  PARAMETER declarations
@@ -41,6 +42,7 @@ localparam STATE_INIT_0										= 3;
 localparam STATE_SHIFT_0									= 4;
 localparam STATE_COUNT_0									= 5;
 localparam STATE_CHECK_1									= 6;
+localparam STATE_LOSE_0										= 7;
 //=======================================================
 //  PORT declarations
 //=======================================================
@@ -49,9 +51,10 @@ output reg		SC_STATEMACHINEBACKG_load_OutLow;
 output reg		[1:0] SC_STATEMACHINEBACKG_shiftselection_Out;
 output reg 		SC_STATEMACHINEBACKG_upcount_out;
 input			SC_STATEMACHINEBACKG_CLOCK_50;
-input 			SC_STATEMACHINEBACKG_RESET_InHigh;
+input 		SC_STATEMACHINEBACKG_RESET_InHigh;
 input			SC_STATEMACHINEBACKG_startButton_InLow;
 input			SC_STATEMACHINEBACKG_T0_InLow;
+input 		SC_STATEMACHINEBACKG_crash_InLow;
 //=======================================================
 //  REG/WIRE declarations
 //=======================================================
@@ -71,6 +74,7 @@ begin
 		
 		STATE_CHECK_0: if (SC_STATEMACHINEBACKG_startButton_InLow == 1'b0) STATE_Signal = STATE_INIT_0;
 						else if (SC_STATEMACHINEBACKG_T0_InLow == 1'b0) STATE_Signal = STATE_SHIFT_0;
+						else if (SC_STATEMACHINEBACKG_crash_InLow == 1'b0) STATE_Signal = STATE_LOSE_0;
 						else STATE_Signal = STATE_COUNT_0;
 						
 						
@@ -168,6 +172,16 @@ begin
 			SC_STATEMACHINEBACKG_load_OutLow = 1'b1;
 			SC_STATEMACHINEBACKG_shiftselection_Out  = 2'b11;  
 			SC_STATEMACHINEBACKG_upcount_out = 1'b0;
+		end
+//=========================================================
+// STATE_LOSE_0
+//=========================================================
+	STATE_LOSE_0 :	
+		begin
+			SC_STATEMACHINEBACKG_clear_OutLow = 1'b0;
+			SC_STATEMACHINEBACKG_load_OutLow = 1'b1;
+			SC_STATEMACHINEBACKG_shiftselection_Out  = 2'b11; 
+			SC_STATEMACHINEBACKG_upcount_out = 1'b1;
 		end
 //=========================================================
 // DEFAULT

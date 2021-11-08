@@ -65,7 +65,7 @@ begin
 		RegBACKGTYPE_Signal = {RegBACKGTYPE_Register[0],RegBACKGTYPE_Register[RegBACKGTYPE_DATAWIDTH-1:1]};
 	else
 		RegBACKGTYPE_Signal = RegBACKGTYPE_Register;
-	end	
+end	
 //STATE REGISTER: SEQUENTIAL
 always @(posedge SC_RegBACKGTYPE_CLOCK_50, posedge SC_RegBACKGTYPE_RESET_InHigh)
 begin

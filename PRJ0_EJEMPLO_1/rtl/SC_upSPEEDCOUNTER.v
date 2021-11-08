@@ -18,13 +18,14 @@
 //=======================================================
 //  MODULE Definition
 //=======================================================
-module SC_upSPEEDCOUNTER #(parameter upSPEEDCOUNTER_DATAWIDTH=8)(
+module SC_upSPEEDCOUNTER #(parameter upSPEEDCOUNTER_DATAWIDTH=23)(
 	//////////// OUTPUTS //////////
 	SC_upSPEEDCOUNTER_data_OutBUS,
 	//////////// INPUTS //////////
 	SC_upSPEEDCOUNTER_CLOCK_50,
 	SC_upSPEEDCOUNTER_RESET_InHigh,
-	SC_upSPEEDCOUNTER_upcount_InLow
+	SC_upSPEEDCOUNTER_upcount_InLow,
+	SC_UPSPEEDCOUNTER_CLEAR_InLow
 );
 //=======================================================
 //  PARAMETER declarations
@@ -37,6 +38,7 @@ output		[upSPEEDCOUNTER_DATAWIDTH-1:0]	SC_upSPEEDCOUNTER_data_OutBUS;
 input		SC_upSPEEDCOUNTER_CLOCK_50;
 input		SC_upSPEEDCOUNTER_RESET_InHigh;
 input		SC_upSPEEDCOUNTER_upcount_InLow;
+input		SC_UPSPEEDCOUNTER_CLEAR_InLow;
 
 //=======================================================
 //  REG/WIRE declarations
@@ -51,6 +53,8 @@ always @(*)
 begin
 	if (SC_upSPEEDCOUNTER_upcount_InLow == 1'b0)
 		upSPEEDCOUNTER_Signal = upSPEEDCOUNTER_Register + 1'b1;
+		else if (SC_UPSPEEDCOUNTER_CLEAR_InLow == 1'b0)
+		upSPEEDCOUNTER_Signal = 0;
 	else
 		upSPEEDCOUNTER_Signal = upSPEEDCOUNTER_Register;
 	end	

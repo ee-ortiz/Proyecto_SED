@@ -26,11 +26,12 @@ module SC_RegPOINTTYPE #(parameter RegPOINTTYPE_DATAWIDTH=8, parameter DATA_FIXE
 	SC_RegPOINTTYPE_CLOCK_50,
 	SC_RegPOINTTYPE_RESET_InHigh,
 	SC_RegPOINTTYPE_clear_InLow, 
-	SC_RegPOINTTYPE_load0_InLow, 
 	SC_RegPOINTTYPE_load1_InLow, 
 	SC_RegPOINTTYPE_shiftselection_In,
 	SC_RegPOINTTYPE_data0_InBUS,
-	SC_RegPOINTTYPE_data1_InBUS
+	SC_RegPOINTTYPE_data1_InBUS,
+	SC_STATEMACHINEPOINT_T0_InLow,
+	SC_STATEMACHINEPOINT_upcount_out
 );
 //=======================================================
 //  PARAMETER declarations
@@ -43,11 +44,12 @@ output		[RegPOINTTYPE_DATAWIDTH-1:0]	SC_RegPOINTTYPE_data_OutBUS;
 input		SC_RegPOINTTYPE_CLOCK_50;
 input		SC_RegPOINTTYPE_RESET_InHigh;
 input		SC_RegPOINTTYPE_clear_InLow;
-input		SC_RegPOINTTYPE_load0_InLow;	
 input		SC_RegPOINTTYPE_load1_InLow;	
 input		[1:0] SC_RegPOINTTYPE_shiftselection_In;
 input		[RegPOINTTYPE_DATAWIDTH-1:0]	SC_RegPOINTTYPE_data0_InBUS;
 input		[RegPOINTTYPE_DATAWIDTH-1:0]	SC_RegPOINTTYPE_data1_InBUS;
+input		SC_STATEMACHINEPOINT_T0_InLow;
+input		SC_STATEMACHINEPOINT_upcount_out;
 
 //=======================================================
 //  REG/WIRE declarations
@@ -62,8 +64,6 @@ always @(*)
 begin
 	if (SC_RegPOINTTYPE_clear_InLow == 1'b0)
 		RegPOINTTYPE_Signal = DATA_FIXED_INITREGPOINT;
-	else if (SC_RegPOINTTYPE_load0_InLow == 1'b0)
-		RegPOINTTYPE_Signal = SC_RegPOINTTYPE_data0_InBUS;
 	else if (SC_RegPOINTTYPE_load1_InLow == 1'b0)
 		RegPOINTTYPE_Signal = SC_RegPOINTTYPE_data1_InBUS;
 	else if (SC_RegPOINTTYPE_shiftselection_In == 2'b01)

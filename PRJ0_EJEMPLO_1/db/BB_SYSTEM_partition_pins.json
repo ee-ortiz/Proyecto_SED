@@ -4,6 +4,34 @@
 			"name" : "Top",
 			"pins" : [
 				{
+					"name" : "BB_SYSTEM_display_OutBUS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BB_SYSTEM_display_OutBUS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BB_SYSTEM_display_OutBUS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BB_SYSTEM_display_OutBUS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "BB_SYSTEM_display_OutBUS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "BB_SYSTEM_display_OutBUS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "BB_SYSTEM_display_OutBUS[6]",
+					"strict" : false
+				},
+				{
 					"name" : "BB_SYSTEM_display_OutBUS[8]",
 					"strict" : false
 				},
@@ -36,14 +64,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "BB_SYSTEM_upButton_Out",
-					"strict" : false
-				},
-				{
-					"name" : "BB_SYSTEM_downButton_Out",
-					"strict" : false
-				},
-				{
 					"name" : "BB_SYSTEM_leftButton_Out",
 					"strict" : false
 				},
@@ -73,14 +93,6 @@
 				},
 				{
 					"name" : "BB_SYSTEM_startButton_InLow",
-					"strict" : false
-				},
-				{
-					"name" : "BB_SYSTEM_upButton_InLow",
-					"strict" : false
-				},
-				{
-					"name" : "BB_SYSTEM_downButton_InLow",
 					"strict" : false
 				},
 				{

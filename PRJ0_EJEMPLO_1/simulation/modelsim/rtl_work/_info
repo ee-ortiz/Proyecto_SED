@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim
 vBB_SYSTEM
-Z1 !s110 1635366113
+Z1 !s110 1635648449
 !i10b 1
-!s100 ?=480N6Hz`[e]OWN?;0g>3
-IRT6RO7N]kNVoPofkGG;hj2
+!s100 TmDCTHhjFV`V5<5fUB9];1
+IQQKXAFWc^UFe?lj9dB5zz3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1635363252
+w1635646393
 8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v
 FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v
 Z3 L0 21
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1635366113.000000
+Z5 !s108 1635648449.000000
 !s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v|
 !i113 1
@@ -55,7 +55,7 @@ Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proy
 R7
 n@c@c_@b@i@n2@b@c@d1
 vCC_BOTTOMSIDECOMPARATOR
-R1
+Z11 !s110 1635648448
 !i10b 1
 !s100 MjU1Yn;iTX94@TFOlJ7]X3
 I6<eR@HlWCm<0OQIbbje=b3
@@ -69,7 +69,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1635366112.000000
+Z12 !s108 1635648448.000000
 !s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v|
 !i113 1
@@ -103,11 +103,11 @@ n@c@c_@s@e@v@e@n@s@e@g1
 vCC_SPEEDCOMPARATOR
 R1
 !i10b 1
-!s100 W^gP3c08lBJm;dWZ<?B^W0
-IaMMd0m1;Xn@C<Ajh4Shgk0
+!s100 gzCKT4A20PWF=K3i7i@`j1
+IjU6L05Zic=cLSfn==>3JI0
 R2
 R0
-R8
+w1635555350
 8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v
 FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v
 R3
@@ -169,7 +169,7 @@ R10
 R7
 n@s@c_@d@e@b@o@u@n@c@e1
 vSC_RegBACKGTYPE
-Z12 !s110 1635366112
+R11
 !i10b 1
 !s100 Mkd6PPC0Td2HGhP3=<T<;0
 I1^g?blUBYA9]kSUGZoGT_0
@@ -183,7 +183,7 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v|
 !i113 1
@@ -192,13 +192,13 @@ R10
 R7
 n@s@c_@reg@b@a@c@k@g@t@y@p@e
 vSC_RegPOINTTYPE
-R12
+R11
 !i10b 1
-!s100 4=P8@z0TzlO0L?PM9SZXI1
-IoY1?W4^f<GMig6oczinI33
+!s100 ZOQioEo534a^bA=jZ89E80
+ImXaO_GSRJXnDL0KYB<@Zg0
 R2
 R0
-R8
+w1635560603
 8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
 FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
 R3
@@ -206,7 +206,7 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v|
 !i113 1
@@ -215,7 +215,7 @@ R10
 R7
 n@s@c_@reg@p@o@i@n@t@t@y@p@e
 vSC_STATEMACHINEBACKG
-R12
+R11
 !i10b 1
 !s100 2J;`_Pchlf[^9cK=`l^EZ2
 I9fbO6IYf>mOGf@zE6JiQ81
@@ -229,7 +229,7 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v|
 !i113 1
@@ -238,13 +238,13 @@ R10
 R7
 n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e@b@a@c@k@g
 vSC_STATEMACHINEPOINT
-R12
+R11
 !i10b 1
-!s100 >0o06465nd]^4l6_Gg=ld0
-IKKH^OI4NX9lC6>L37eDGX0
+!s100 612AD>6>TWICSO;13]EZP1
+Ido`WcBaj>R9C?HoOG<9422
 R2
 R0
-w1635363199
+w1635562002
 8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v
 FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v
 R3
@@ -252,7 +252,7 @@ R4
 r1
 !s85 0
 31
-R11
+R12
 !s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v|
 !i113 1
@@ -286,11 +286,11 @@ n@s@c_up@c@o@u@n@t@e@r
 vSC_upSPEEDCOUNTER
 R1
 !i10b 1
-!s100 cm=PR6iaGzJLc2NkCh];P0
-I4CRf3E1S;OIaK^2;_GU]C2
+!s100 X699bVnFKSbQS]Z];Z6ZO2
+IbQPAf0bkM[Rc5Q@VRcNlk2
 R2
 R0
-R8
+w1635560997
 8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v
 FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v
 R3
@@ -331,11 +331,11 @@ R7
 vTB_SYSTEM
 R1
 !i10b 1
-!s100 cF`5MQL6B><`P<NTk8j3U0
-I:YffQ7mWaO0j7>^^an^bo0
+!s100 C2^`i87=_K`eA>]J]kzjL0
+I9Ajj0`JhajFJe9Yzb9MXJ1
 R2
 R0
-R8
+w1635541672
 8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt
 FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt
 R9
