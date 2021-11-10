@@ -386,6 +386,8 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 
 
 
+set_global_assignment -name VERILOG_FILE rtl/SC_RegCRASH.v
+set_global_assignment -name VERILOG_FILE rtl/SC_RegCLEAN.v
 set_global_assignment -name VERILOG_FILE rtl/SC_STATEMACHINEBACKG.v
 set_global_assignment -name VERILOG_FILE rtl/SC_RegBACKGTYPE.v
 set_global_assignment -name VERILOG_FILE rtl/SC_STATEMACHINEPOINT.v

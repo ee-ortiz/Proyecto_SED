@@ -1,4 +1,4 @@
-module SC_regCRASH #() (
+module SC_regCRASH (
 	//////////// OUTPUTS //////////
 	SC_RegCRASH_OutBUS_InLow,
 	//////////// INPUTS //////////
@@ -24,7 +24,7 @@ module SC_regCRASH #() (
 //=======================================================
 //  PORT declarations
 //=======================================================
-output	SC_RegCRASH_OutBUS_InLow;
+output reg	SC_RegCRASH_OutBUS_InLow;
 input	[7:0]SC_INITREGPOINT_7;
 input	[7:0]SC_INITREGPOINT_6;
 input	[7:0]SC_INITREGPOINT_5;
@@ -48,24 +48,23 @@ input	[7:0]SC_INITREGBACKG_0;
 always @(*)
 begin
 	if (SC_INITREGPOINT_7 & SC_INITREGBACKG_7 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else if (SC_INITREGPOINT_6 & SC_INITREGBACKG_6 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else if (SC_INITREGPOINT_5 & SC_INITREGBACKG_5 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else if (SC_INITREGPOINT_4 & SC_INITREGBACKG_4 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else if (SC_INITREGPOINT_3 & SC_INITREGBACKG_3 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else if (SC_INITREGPOINT_2 & SC_INITREGBACKG_2 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else if (SC_INITREGPOINT_1 & SC_INITREGBACKG_1 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else if (SC_INITREGPOINT_0 & SC_INITREGBACKG_0 != 8'b00000000)
-		SC_RegCRASH_OutBUS_InLow = 0;
+		SC_RegCRASH_OutBUS_InLow = 1'b0;
 	else
-		SC_RegCRASH_OutBUS_InLow = 1;
+		SC_RegCRASH_OutBUS_InLow = 1'b1;
 end
 
-end
 endmodule
