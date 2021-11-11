@@ -16,38 +16,6 @@
 <TH>Output only Bidir</TH>
 </TR>
 <TR >
-<TD >RegCLEAR</TD>
-<TD >128</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >1</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >RegCRASH</TD>
-<TD >128</TD>
-<TD >0</TD>
-<TD >56</TD>
-<TD >0</TD>
-<TD >1</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
 <TD >SC_upCOUNTER_u0</TD>
 <TD >3</TD>
 <TD >0</TD>
@@ -57,6 +25,38 @@
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >CC_SEVENSEG1_u0</TD>
+<TD >18</TD>
+<TD >1</TD>
+<TD >0</TD>
+<TD >1</TD>
+<TD >12</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
+<TD >CC_BIN2BCD1_u0</TD>
+<TD >8</TD>
+<TD >2</TD>
+<TD >0</TD>
+<TD >2</TD>
+<TD >12</TD>
+<TD >2</TD>
+<TD >2</TD>
+<TD >2</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -113,14 +113,14 @@
 </TR>
 <TR >
 <TD >CC_SPEEDCOMPARATOR_u0</TD>
-<TD >23</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
+<TD >16</TD>
 <TD >1</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
+<TD >16</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >1</TD>
+<TD >1</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -129,11 +129,11 @@
 </TR>
 <TR >
 <TD >SC_upSPEEDCOUNTER_u0</TD>
-<TD >4</TD>
+<TD >3</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
-<TD >23</TD>
+<TD >16</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -145,11 +145,11 @@
 </TR>
 <TR >
 <TD >SC_STATEMACHINEBACKG_u0</TD>
-<TD >5</TD>
+<TD >3</TD>
 <TD >1</TD>
 <TD >0</TD>
 <TD >1</TD>
-<TD >4</TD>
+<TD >2</TD>
 <TD >1</TD>
 <TD >1</TD>
 <TD >1</TD>
@@ -161,7 +161,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u0</TD>
-<TD >16</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -177,7 +177,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u1</TD>
-<TD >14</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -193,7 +193,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u2</TD>
-<TD >14</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -209,7 +209,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u3</TD>
-<TD >14</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -225,7 +225,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u4</TD>
-<TD >16</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -241,7 +241,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u5</TD>
-<TD >16</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -257,7 +257,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u6</TD>
-<TD >16</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -273,7 +273,7 @@
 </TR>
 <TR >
 <TD >SC_RegBACKGTYPE_u7</TD>
-<TD >16</TD>
+<TD >12</TD>
 <TD >8</TD>
 <TD >0</TD>
 <TD >8</TD>
@@ -289,9 +289,9 @@
 </TR>
 <TR >
 <TD >SC_STATEMACHINEPOINT_u0</TD>
-<TD >7</TD>
+<TD >6</TD>
 <TD >0</TD>
-<TD >1</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >5</TD>
 <TD >0</TD>
@@ -304,8 +304,24 @@
 <TD >0</TD>
 </TR>
 <TR >
+<TD >CC_MUX21_u0</TD>
+<TD >4</TD>
+<TD >3</TD>
+<TD >0</TD>
+<TD >3</TD>
+<TD >1</TD>
+<TD >3</TD>
+<TD >3</TD>
+<TD >3</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
+</TR>
+<TR >
 <TD >SC_RegPOINTTYPE_u0</TD>
-<TD >13</TD>
+<TD >14</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -321,7 +337,7 @@
 </TR>
 <TR >
 <TD >SC_RegPOINTTYPE_u1</TD>
-<TD >13</TD>
+<TD >14</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -337,7 +353,7 @@
 </TR>
 <TR >
 <TD >SC_RegPOINTTYPE_u2</TD>
-<TD >13</TD>
+<TD >14</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -353,7 +369,7 @@
 </TR>
 <TR >
 <TD >SC_RegPOINTTYPE_u3</TD>
-<TD >13</TD>
+<TD >14</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -369,7 +385,7 @@
 </TR>
 <TR >
 <TD >SC_RegPOINTTYPE_u4</TD>
-<TD >13</TD>
+<TD >14</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -385,7 +401,7 @@
 </TR>
 <TR >
 <TD >SC_RegPOINTTYPE_u5</TD>
-<TD >13</TD>
+<TD >14</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -401,7 +417,7 @@
 </TR>
 <TR >
 <TD >SC_RegPOINTTYPE_u6</TD>
-<TD >13</TD>
+<TD >14</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -418,45 +434,13 @@
 <TR >
 <TD >SC_RegPOINTTYPE_u7</TD>
 <TD >14</TD>
+<TD >7</TD>
 <TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
+<TD >7</TD>
 <TD >8</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >SC_DEBOUNCE1_u4</TD>
-<TD >3</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >1</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-</TR>
-<TR >
-<TD >SC_DEBOUNCE1_u3</TD>
-<TD >3</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >1</TD>
-<TD >0</TD>
-<TD >0</TD>
-<TD >0</TD>
+<TD >7</TD>
+<TD >7</TD>
+<TD >7</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -466,13 +450,13 @@
 <TR >
 <TD >SC_DEBOUNCE1_u2</TD>
 <TD >3</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
@@ -482,13 +466,13 @@
 <TR >
 <TD >SC_DEBOUNCE1_u1</TD>
 <TD >3</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
-<TD >1</TD>
+<TD >0</TD>
+<TD >0</TD>
+<TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>
 <TD >0</TD>

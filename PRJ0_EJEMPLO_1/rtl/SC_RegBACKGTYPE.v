@@ -18,7 +18,7 @@
 //=======================================================
 //  MODULE Definition
 //=======================================================
-module SC_RegBACKGTYPE #(parameter RegBACKGTYPE_DATAWIDTH=8, parameter DATA_FIXED_INITREGBACKG=8'b00000000, parameter DATA_FIXED_INITREGBACKG2=8'b00000000, parameter DATA_FIXED_INITREGBACKG3=8'b00000000, parameter DATA_FIXED_INITREWIN, parameter DATA_FIXED_INITRELOSE)(
+module SC_RegBACKGTYPE #(parameter RegBACKGTYPE_DATAWIDTH=8, parameter DATA_FIXED_INITREGBACKG=8'b00000000)(
 	//////////// OUTPUTS //////////
 	SC_RegBACKGTYPE_data_OutBUS,
 	//////////// INPUTS //////////
@@ -26,12 +26,7 @@ module SC_RegBACKGTYPE #(parameter RegBACKGTYPE_DATAWIDTH=8, parameter DATA_FIXE
 	SC_RegBACKGTYPE_RESET_InHigh,
 	SC_RegBACKGTYPE_clear_InLow, 
 	SC_RegBACKGTYPE_load_InLow, 
-	SC_RegBACKGTYPE_shiftselection_In,
-	SC_RegBACKGTYPE_data_InBUS,
-	SC_RegBACKGTYPE_crash_inLow,
-	SC_RegBACKGTYPE_clean_inLow,
-	SC_RegBACKGTYPE_nivel
-	
+	SC_RegBACKGTYPE_data_InBUS
 );
 //=======================================================
 //  PARAMETER declarations
@@ -45,11 +40,7 @@ input		SC_RegBACKGTYPE_CLOCK_50;
 input		SC_RegBACKGTYPE_RESET_InHigh;
 input		SC_RegBACKGTYPE_clear_InLow;
 input		SC_RegBACKGTYPE_load_InLow;	
-input		[1:0] SC_RegBACKGTYPE_shiftselection_In;
 input		[RegBACKGTYPE_DATAWIDTH-1:0]	SC_RegBACKGTYPE_data_InBUS;
-input 	SC_RegBACKGTYPE_crash_inLow;
-input 	SC_RegBACKGTYPE_clean_inLow;
-input    [1:0] SC_RegBACKGTYPE_nivel;
 
 //=======================================================
 //  REG/WIRE declarations
@@ -66,23 +57,9 @@ begin
 		RegBACKGTYPE_Signal = DATA_FIXED_INITREGBACKG;
 	else if (SC_RegBACKGTYPE_load_InLow == 1'b0)
 		RegBACKGTYPE_Signal = SC_RegBACKGTYPE_data_InBUS;
-	else if (SC_RegBACKGTYPE_shiftselection_In == 2'b01)
-		RegBACKGTYPE_Signal = {RegBACKGTYPE_Register[RegBACKGTYPE_DATAWIDTH-2:0],RegBACKGTYPE_Register[RegBACKGTYPE_DATAWIDTH-1]};
-	else if (SC_RegBACKGTYPE_shiftselection_In== 2'b10)
-		RegBACKGTYPE_Signal = {RegBACKGTYPE_Register[0],RegBACKGTYPE_Register[RegBACKGTYPE_DATAWIDTH-1:1]};
-	else if (SC_RegBACKGTYPE_crash_inLow == 1'b0)
-		RegBACKGTYPE_Signal = DATA_FIXED_INITRELOSE;
-	else if (SC_RegBACKGTYPE_clean_inLow == 1'b0)
-		RegBACKGTYPE_Signal = DATA_FIXED_INITREWIN;
-	else if (SC_RegBACKGTYPE_nivel == 2'b01)
-		RegBACKGTYPE_Signal = DATA_FIXED_INITREGBACKG;
-	else if (SC_RegBACKGTYPE_nivel == 2'b10)
-		RegBACKGTYPE_Signal = DATA_FIXED_INITREGBACKG2;
-	else if (SC_RegBACKGTYPE_nivel == 2'b11)
-		RegBACKGTYPE_Signal = DATA_FIXED_INITREGBACKG3;
 	else
 		RegBACKGTYPE_Signal = RegBACKGTYPE_Register;
-end	
+	end	
 //STATE REGISTER: SEQUENTIAL
 always @(posedge SC_RegBACKGTYPE_CLOCK_50, posedge SC_RegBACKGTYPE_RESET_InHigh)
 begin
