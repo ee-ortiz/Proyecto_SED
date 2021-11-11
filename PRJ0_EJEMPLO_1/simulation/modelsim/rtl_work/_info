@@ -7,347 +7,301 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim
-vBB_SYSTEM
-Z1 !s110 1635648449
-!i10b 1
-!s100 TmDCTHhjFV`V5<5fUB9];1
-IQQKXAFWc^UFe?lj9dB5zz3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1635646393
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v
-Z3 L0 21
-Z4 OV;L;10.5b;63
-r1
-!s85 0
-31
-Z5 !s108 1635648449.000000
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v|
-!i113 1
-Z6 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1
-Z7 tCvgOpt 0
-n@b@b_@s@y@s@t@e@m
-vCC_BIN2BCD1
-R1
-!i10b 1
-!s100 QO[[GfEG:_IIZUgJ1o]@b1
-I]DzdVF<b8<:I4lA;GDeM13
-R2
-R0
-Z8 w1635348213
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v
-Z9 L0 19
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v|
-!i113 1
-R6
-Z10 !s92 -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl
-R7
-n@c@c_@b@i@n2@b@c@d1
+Z0 dC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim
 vCC_BOTTOMSIDECOMPARATOR
-Z11 !s110 1635648448
+Z1 !s110 1636594111
 !i10b 1
 !s100 MjU1Yn;iTX94@TFOlJ7]X3
-I6<eR@HlWCm<0OQIbbje=b3
-R2
+I8<N>YXYjPnA]lR0VTKZo?3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v
-R3
-R4
+Z3 w1636583965
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z12 !s108 1635648448.000000
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v|
+Z6 !s108 1636594111.000000
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v|
 !i113 1
-R6
-R10
-R7
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl
+Z9 tCvgOpt 0
 n@c@c_@b@o@t@t@o@m@s@i@d@e@c@o@m@p@a@r@a@t@o@r
-vCC_SEVENSEG1
-R1
-!i10b 1
-!s100 U;OI0BK_N[TU?J^bM9E360
-I_z0<V`8NHmlJaKEBYaDFJ2
-R2
-R0
-R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v
-L0 24
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v|
-!i113 1
-R6
-R10
-R7
-n@c@c_@s@e@v@e@n@s@e@g1
 vCC_SPEEDCOMPARATOR
-R1
+Z10 !s110 1636594112
 !i10b 1
 !s100 gzCKT4A20PWF=K3i7i@`j1
-IjU6L05Zic=cLSfn==>3JI0
+Ig3F8cSUod2fa1AUL9O[CN0
 R2
 R0
-w1635555350
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v
 R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v
 R4
+R5
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v|
+Z11 !s108 1636594112.000000
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v|
 !i113 1
-R6
-R10
 R7
+R8
+R9
 n@c@c_@s@p@e@e@d@c@o@m@p@a@r@a@t@o@r
 vmatrix_ctrl
-R1
+R10
 !i10b 1
 !s100 e8fJ::8FZhBf=Yo62HC<D0
-Ih7^]<ZcN^060R]^C9RomE3
+I?B8ez68oh9FgXVZ]?64kV0
 R2
 R0
-R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v
+R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v
 L0 18
-R4
+R5
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v|
+R11
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v|
 !i113 1
-R6
-R10
 R7
+R8
+R9
 vSC_DEBOUNCE1
-R1
+!s110 1636594113
 !i10b 1
 !s100 R1A>6;z02mNBGFV[E4kge0
-IRI=Z9[m;PNfCC71d58gmF1
+I6aU[iNn3_HMIR4W3SR04`3
 R2
 R0
-R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v
+R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v
 L0 44
-R4
+R5
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v|
+!s108 1636594113.000000
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v|
 !i113 1
-R6
-R10
 R7
+R8
+R9
 n@s@c_@d@e@b@o@u@n@c@e1
 vSC_RegBACKGTYPE
-R11
+Z12 !s110 1636594110
 !i10b 1
-!s100 Mkd6PPC0Td2HGhP3=<T<;0
-I1^g?blUBYA9]kSUGZoGT_0
+!s100 <M_mjLQ8@Z[<;TbD@a]B13
+IU[OnnaoOlnGE0gd[Tee3e2
 R2
 R0
+R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v
+R4
+R5
+r1
+!s85 0
+31
+Z13 !s108 1636594110.000000
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v|
+!i113 1
+R7
 R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v
-R3
-R4
-r1
-!s85 0
-31
-R12
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v|
-!i113 1
-R6
-R10
-R7
+R9
 n@s@c_@reg@b@a@c@k@g@t@y@p@e
-vSC_RegPOINTTYPE
-R11
+vSC_regCLEAN
+R12
 !i10b 1
-!s100 ZOQioEo534a^bA=jZ89E80
-ImXaO_GSRJXnDL0KYB<@Zg0
+!s100 KM:`1EG1k>fd5Ke@TAa@Y3
+I`^jnc;kbz7MEnDzaO;LO01
 R2
 R0
-w1635560603
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
 R3
-R4
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCLEAN.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCLEAN.v
+L0 1
+R5
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v|
+R13
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCLEAN.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCLEAN.v|
 !i113 1
-R6
-R10
 R7
+R8
+R9
+n@s@c_reg@c@l@e@a@n
+vSC_regCRASH
+R12
+!i10b 1
+!s100 VdiC]Bl6=oR00VFRIXbf@3
+I9P^g`J?QmcN6Pni0Lce@62
+R2
+R0
+R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCRASH.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCRASH.v
+L0 1
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCRASH.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCRASH.v|
+!i113 1
+R7
+R8
+R9
+n@s@c_reg@c@r@a@s@h
+vSC_RegPOINTTYPE
+R1
+!i10b 1
+!s100 D^iDf]JgYV`Ykf^aKAEI62
+Iah3agnYnRCaX8o6:93bUA2
+R2
+R0
+w1636593255
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v|
+!i113 1
+R7
+R8
+R9
 n@s@c_@reg@p@o@i@n@t@t@y@p@e
 vSC_STATEMACHINEBACKG
-R11
+R12
 !i10b 1
-!s100 2J;`_Pchlf[^9cK=`l^EZ2
-I9fbO6IYf>mOGf@zE6JiQ81
+!s100 PZ8jSB[1a?6To:kZbUdi31
+I<@iRZk[]IB=74oEdldDF;1
 R2
 R0
-R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v
 R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v
 R4
+R5
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v|
+R13
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v|
 !i113 1
-R6
-R10
 R7
+R8
+R9
 n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e@b@a@c@k@g
 vSC_STATEMACHINEPOINT
-R11
+R12
 !i10b 1
 !s100 612AD>6>TWICSO;13]EZP1
-Ido`WcBaj>R9C?HoOG<9422
+I7OcZ<Y^D=LULE?JQ6PHHo3
 R2
 R0
-w1635562002
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v
 R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v
 R4
+R5
 r1
 !s85 0
 31
-R12
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v|
+R13
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v|
 !i113 1
-R6
-R10
 R7
+R8
+R9
 n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e@p@o@i@n@t
 vSC_upCOUNTER
-R1
+R10
 !i10b 1
 !s100 PT49PD5be3bIA@;=]eGhk2
-I]<O5hL7BM:VX7I1=C]kPS2
+IC<`eZ=EjGe6W<f2T5bK]G1
 R2
 R0
-R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v
 R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v
 R4
+R5
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v|
-!i113 1
 R6
-R10
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v|
+!i113 1
 R7
+R8
+R9
 n@s@c_up@c@o@u@n@t@e@r
 vSC_upSPEEDCOUNTER
-R1
+R10
 !i10b 1
 !s100 X699bVnFKSbQS]Z];Z6ZO2
-IbQPAf0bkM[Rc5Q@VRcNlk2
+I65Zn^caDIbdVA_RloBz>j0
 R2
 R0
-w1635560997
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v
 R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v
 R4
+R5
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v|
+R11
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v|
 !i113 1
-R6
-R10
 R7
+R8
+R9
 n@s@c_up@s@p@e@e@d@c@o@u@n@t@e@r
 vshift_reg_start_done
-R1
+R10
 !i10b 1
 !s100 P[k=OFn:ZJUAdXXFS>kmX1
-I[W>hf7O5:WahRJ[InET:@0
+I>KVmiIfAVT4DI8NoJ33WG0
 R2
 R0
-R8
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v
+R3
+8C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v
+FC:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v
 L0 34
-R4
+R5
 r1
 !s85 0
 31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v|
+R11
+!s107 C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl|C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v|
 !i113 1
-R6
-R10
 R7
-vTB_SYSTEM
-R1
-!i10b 1
-!s100 C2^`i87=_K`eA>]J]kzjL0
-I9Ajj0`JhajFJe9Yzb9MXJ1
-R2
-R0
-w1635541672
-8C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt
-FC:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt
+R8
 R9
-R4
-r1
-!s85 0
-31
-R5
-!s107 C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim|C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt|
-!i113 1
-R6
-!s92 -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim
-R7
-n@t@b_@s@y@s@t@e@m

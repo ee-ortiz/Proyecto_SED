@@ -90,27 +90,27 @@ initial begin
 	random1 <= $random;
 	#0 			TB_SYSTEM_RESET_InHigh <= 1'b1; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
 	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;/
 
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b1;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+   #10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b1;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+//	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
 
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b1;
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b1;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
 
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b1;
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b1;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
 	
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+//	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
 	
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b1; TB_SYSTEM_rightButton_InLow <= 1'b0;
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b1; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
 
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b1; TB_SYSTEM_rightButton_InLow <= 1'b0;
-	#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b1; TB_SYSTEM_rightButton_InLow <= 1'b0;
+	//#10000000 	TB_SYSTEM_RESET_InHigh <= 1'b0; TB_SYSTEM_startButton_InLow <= 1'b0;  TB_SYSTEM_leftButton_InLow <= 1'b0; TB_SYSTEM_rightButton_InLow <= 1'b0;
 	
-	//#(TCK*10000) $finish;	
+	#(TCK*10000) $finish;	
 @eachvec;
 $finish;                                              
 // --> end                                             

@@ -29,7 +29,6 @@ module SC_RegPOINTTYPE #(parameter RegPOINTTYPE_DATAWIDTH=8, parameter DATA_FIXE
 	SC_RegPOINTTYPE_load1_InLow, 
 	SC_RegPOINTTYPE_shiftselection_In,
 	SC_RegPOINTTYPE_data0_InBUS,
-	SC_RegPOINTTYPE_data1_InBUS,
 	SC_STATEMACHINEPOINT_T0_InLow,
 	SC_STATEMACHINEPOINT_upcount_out
 );
@@ -47,7 +46,6 @@ input		SC_RegPOINTTYPE_clear_InLow;
 input		SC_RegPOINTTYPE_load1_InLow;	
 input		[1:0] SC_RegPOINTTYPE_shiftselection_In;
 input		[RegPOINTTYPE_DATAWIDTH-1:0]	SC_RegPOINTTYPE_data0_InBUS;
-input		[RegPOINTTYPE_DATAWIDTH-1:0]	SC_RegPOINTTYPE_data1_InBUS;
 input		SC_STATEMACHINEPOINT_T0_InLow;
 input		SC_STATEMACHINEPOINT_upcount_out;
 
@@ -65,7 +63,7 @@ begin
 	if (SC_RegPOINTTYPE_clear_InLow == 1'b0)
 		RegPOINTTYPE_Signal = DATA_FIXED_INITREGPOINT;
 	else if (SC_RegPOINTTYPE_load1_InLow == 1'b0)
-		RegPOINTTYPE_Signal = SC_RegPOINTTYPE_data1_InBUS;
+		RegPOINTTYPE_Signal = SC_RegPOINTTYPE_data0_InBUS;
 	else if (SC_RegPOINTTYPE_shiftselection_In == 2'b01)
 		RegPOINTTYPE_Signal = {RegPOINTTYPE_Register[RegPOINTTYPE_DATAWIDTH-2:0],RegPOINTTYPE_Register[RegPOINTTYPE_DATAWIDTH-1]};
 	else if (SC_RegPOINTTYPE_shiftselection_In == 2'b10)

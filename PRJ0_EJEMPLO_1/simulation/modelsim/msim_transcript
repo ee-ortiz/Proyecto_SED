@@ -1,4 +1,5 @@
-# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# Reading C:/Programación/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
 # do BB_SYSTEM_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -7,227 +8,149 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap work rtl_work 
-# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:/Programación/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCRASH.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:28 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v 
+# Start time: 20:28:30 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCRASH.v 
+# -- Compiling module SC_regCRASH
+# 
+# Top level modules:
+# 	SC_regCRASH
+# End time: 20:28:30 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCLEAN.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:30 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegCLEAN.v 
+# -- Compiling module SC_regCLEAN
+# 
+# Top level modules:
+# 	SC_regCLEAN
+# End time: 20:28:30 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:30 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEBACKG.v 
 # -- Compiling module SC_STATEMACHINEBACKG
 # 
 # Top level modules:
 # 	SC_STATEMACHINEBACKG
-# End time: 21:47:28 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:30 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:28 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v 
+# Start time: 20:28:30 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegBACKGTYPE.v 
 # -- Compiling module SC_RegBACKGTYPE
 # 
 # Top level modules:
 # 	SC_RegBACKGTYPE
-# End time: 21:47:28 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:30 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:28 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v 
+# Start time: 20:28:30 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_STATEMACHINEPOINT.v 
 # -- Compiling module SC_STATEMACHINEPOINT
 # 
 # Top level modules:
 # 	SC_STATEMACHINEPOINT
-# End time: 21:47:28 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:31 on Nov 10,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:28 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v 
+# Start time: 20:28:31 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v 
 # -- Compiling module SC_RegPOINTTYPE
 # 
 # Top level modules:
 # 	SC_RegPOINTTYPE
-# End time: 21:47:28 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:31 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:28 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v 
+# Start time: 20:28:31 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BOTTOMSIDECOMPARATOR.v 
 # -- Compiling module CC_BOTTOMSIDECOMPARATOR
 # 
 # Top level modules:
 # 	CC_BOTTOMSIDECOMPARATOR
-# End time: 21:47:28 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:31 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v 
+# Start time: 20:28:31 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upCOUNTER.v 
 # -- Compiling module SC_upCOUNTER
 # 
 # Top level modules:
 # 	SC_upCOUNTER
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:32 on Nov 10,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SEVENSEG1.v 
-# -- Compiling module CC_SEVENSEG1
-# 
-# Top level modules:
-# 	CC_SEVENSEG1
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_BIN2BCD1.v 
-# -- Compiling module CC_BIN2BCD1
-# 
-# Top level modules:
-# 	CC_BIN2BCD1
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v 
+# Start time: 20:28:32 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_upSPEEDCOUNTER.v 
 # -- Compiling module SC_upSPEEDCOUNTER
 # 
 # Top level modules:
 # 	SC_upSPEEDCOUNTER
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:32 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v 
+# Start time: 20:28:32 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/CC_SPEEDCOMPARATOR.v 
 # -- Compiling module CC_SPEEDCOMPARATOR
 # 
 # Top level modules:
 # 	CC_SPEEDCOMPARATOR
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:32 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v 
+# Start time: 20:28:32 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/shift_reg_start_done.v 
 # -- Compiling module shift_reg_start_done
 # 
 # Top level modules:
 # 	shift_reg_start_done
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:32 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v 
+# Start time: 20:28:32 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/max7219_ctrl.v 
 # -- Compiling module matrix_ctrl
 # 
 # Top level modules:
 # 	matrix_ctrl
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:32 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v 
+# Start time: 20:28:33 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_DEBOUNCE1.v 
 # -- Compiling module SC_DEBOUNCE1
 # 
 # Top level modules:
 # 	SC_DEBOUNCE1
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
+# End time: 20:28:33 on Nov 10,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1 {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1 {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v 
+# Start time: 20:28:33 on Nov 10,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1" C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v 
 # -- Compiling module BB_SYSTEM
-# 
-# Top level modules:
-# 	BB_SYSTEM
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim {C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:47:29 on Oct 30,2021
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim" C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt 
-# -- Compiling module TB_SYSTEM
-# 
-# Top level modules:
-# 	TB_SYSTEM
-# End time: 21:47:29 on Oct 30,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TB_SYSTEM
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" TB_SYSTEM 
-# Start time: 21:47:30 on Oct 30,2021
-# Loading work.TB_SYSTEM
-# Loading work.BB_SYSTEM
-# Loading work.SC_DEBOUNCE1
-# Loading work.SC_RegPOINTTYPE
-# Loading work.SC_STATEMACHINEPOINT
-# Loading work.SC_RegBACKGTYPE
-# Loading work.SC_STATEMACHINEBACKG
-# Loading work.SC_upSPEEDCOUNTER
-# Loading work.CC_SPEEDCOMPARATOR
-# Loading work.CC_BOTTOMSIDECOMPARATOR
-# Loading work.matrix_ctrl
-# Loading work.shift_reg_start_done
-# Loading work.CC_BIN2BCD1
-# Loading work.CC_SEVENSEG1
-# Loading work.SC_upCOUNTER
-# ** Warning: (vsim-3015) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/simulation/modelsim/TB_SYSTEM.vt(56): [PCDPC] - Port size (12) does not match connection size (1) for port 'BB_SYSTEM_display_OutBUS'. The port definition is at: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(23).
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(196): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u7 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(196): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(196): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(207): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u6 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(207): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(207): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(218): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u5 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(218): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(218): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(229): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u4 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(229): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(229): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(240): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u3 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(240): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(240): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(251): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u2 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(251): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(251): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(262): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u1 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(262): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(262): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# ** Warning: (vsim-3017) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(273): [TFMPC] - Too few port connections. Expected 10, found 8.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegPOINTTYPE_u0 File: C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(273): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_T0_InLow'.
-# ** Warning: (vsim-3722) C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(273): [TFMPC] - Missing connection for port 'SC_STATEMACHINEPOINT_upcount_out'.
-# 
-# add wave *
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Usuario  Hostname: DESKTOP-I6BM8KT  ProcessID: 18284
-#           Attempting to use alternate WLF file "./wlft7efnex".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft7efnex
-# view structure
-# .main_pane.structure.interior.cs.body.struct
-# view signals
-# .main_pane.objects.interior.cs.body.tree
-# run -all
-# Running testbench
-# Break key hit
-# Break in Module SC_RegPOINTTYPE at C:/Users/Usuario/Documents/GitHub/Proyecto_SED/PRJ0_EJEMPLO_1/rtl/SC_RegPOINTTYPE.v line 77
-# End time: 21:50:32 on Oct 30,2021, Elapsed time: 0:03:02
-# Errors: 0, Warnings: 27
+# ** Error: (vlog-13069) C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/BB_SYSTEM.v(255): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# End time: 20:28:33 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Programación/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./BB_SYSTEM_run_msim_rtl_verilog.do line 21
+# C:/Programación/intelFPGA_lite/19.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work work +incdir+C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1 {C:/Users/Familia8A/Desktop/Proyecto_SED/PRJ0_EJEMPLO_1/B..."

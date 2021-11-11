@@ -1,5 +1,5 @@
 Timing Analyzer report for BB_SYSTEM
-Tue Nov 09 22:24:51 2021
+Wed Nov 10 18:49:56 2021
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -97,16 +97,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
+; Number detected on machine ; 4           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.05        ;
+; Average used               ; 1.02        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.9%      ;
-;     Processor 3            ;   1.7%      ;
+;     Processor 2            ;   1.0%      ;
+;     Processor 3            ;   0.6%      ;
 ;     Processor 4            ;   0.6%      ;
 +----------------------------+-------------+
 
@@ -116,7 +116,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; BB_SYSTEM.sdc ; OK     ; Tue Nov 09 22:24:50 2021 ;
+; BB_SYSTEM.sdc ; OK     ; Wed Nov 10 18:49:54 2021 ;
 +---------------+--------+--------------------------+
 
 
@@ -568,18 +568,6 @@ No paths to report.
 +-------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+--------------------+--------------------+--------------+------------+------------+
 ; Slack ; From Node                                                                                   ; To Node                                                                                     ; Launch Clock       ; Latch Clock        ; Relationship ; Clock Skew ; Data Delay ;
 +-------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+--------------------+--------------------+--------------+------------+------------+
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
-; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
 ; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
 ; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
 ; 0.312 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_CHECK_0                   ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_CHECK_0                   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
@@ -615,6 +603,18 @@ No paths to report.
 ; 0.312 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0                                             ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~0                                             ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
 ; 0.312 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~1                                             ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~1                                             ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
 ; 0.312 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~2                                             ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~2                                             ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
+; 0.312 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.511      ;
 ; 0.320 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~3                                             ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~3                                             ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.519      ;
 ; 0.338 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_LEVEL_1                   ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_LEVEL_2                   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.537      ;
 ; 0.339 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_LEVEL_3                   ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_WIN_0                     ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.538      ;
@@ -626,8 +626,8 @@ No paths to report.
 ; 0.346 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[12]   ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[13]   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.545      ;
 ; 0.347 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[11]   ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[12]   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.546      ;
 ; 0.349 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.548      ;
-; 0.355 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF2                                                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.554      ;
 ; 0.355 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_START_0                   ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[5]                                 ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.554      ;
+; 0.355 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF2                                                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.554      ;
 ; 0.357 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[15]   ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[14]   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.556      ;
 ; 0.360 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.559      ;
 ; 0.364 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_START_0                   ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_CHECK_0                   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.563      ;
@@ -656,18 +656,18 @@ No paths to report.
 ; 0.512 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.SET_DECODE_MODE                                    ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.SET_DECODE_MODE_WAIT2FINISH                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.711      ;
 ; 0.513 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[6]  ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[6]  ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.712      ;
 ; 0.514 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF2                                                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.713      ;
-; 0.515 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.714      ;
 ; 0.515 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[2]  ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[2]  ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.714      ;
 ; 0.515 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[7]  ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[7]  ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.714      ;
 ; 0.515 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[9]  ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[9]  ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.714      ;
 ; 0.515 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF2                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.714      ;
-; 0.516 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF2                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
+; 0.515 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.714      ;
 ; 0.516 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[11]   ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[10]   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
 ; 0.516 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[4]  ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[4]  ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
 ; 0.516 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[14] ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[14] ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
 ; 0.516 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[12] ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[12] ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
 ; 0.516 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF2                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
 ; 0.516 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
+; 0.516 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF2                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.055      ; 0.715      ;
 +-------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+--------------------+--------------------+--------------+------------+------------+
 
 
@@ -829,18 +829,6 @@ No paths to report.
 +-------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+--------------------+--------------------+--------------+------------+------------+
 ; Slack ; From Node                                                                                   ; To Node                                                                                     ; Launch Clock       ; Latch Clock        ; Relationship ; Clock Skew ; Data Delay ;
 +-------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+--------------------+--------------------+--------------+------------+------------+
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
-; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
 ; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
 ; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|q_reg[10]                                                      ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
 ; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|q_reg[0]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|q_reg[0]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
@@ -866,6 +854,18 @@ No paths to report.
 ; 0.186 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.INTENSITY_WAIT2FINISH                              ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.INTENSITY_WAIT2FINISH                              ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
 ; 0.186 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.SET_SCAN_MODE_WAIT2FINISH                          ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.SET_SCAN_MODE_WAIT2FINISH                          ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
 ; 0.186 ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DIS_SHUTDOWN_WAIT2FINISH                           ; matrix_ctrl:matrix_ctrl_unit_0|state_reg.DIS_SHUTDOWN_WAIT2FINISH                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[0]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[1]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[2]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[3]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[4]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[5]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[6]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[7]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[8]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
+; 0.186 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[9]                                                       ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.307      ;
 ; 0.187 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|SC_DEBOUNCE1_button_Out                                        ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_CHECK_0                   ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_CHECK_0                   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.036      ; 0.307      ;
 ; 0.187 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_WIN_0                     ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_WIN_0                     ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.036      ; 0.307      ;
@@ -887,8 +887,8 @@ No paths to report.
 ; 0.204 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~3                                             ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~1                                             ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.036      ; 0.324      ;
 ; 0.204 ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~3                                             ; matrix_ctrl:matrix_ctrl_unit_0|clk_driver_reg~2                                             ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.036      ; 0.324      ;
 ; 0.205 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[15]   ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|r_reg[14]   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.326      ;
-; 0.207 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF2                                                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.328      ;
 ; 0.207 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.328      ;
+; 0.207 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF2                                                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.328      ;
 ; 0.209 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_START_0                   ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_CHECK_0                   ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.036      ; 0.329      ;
 ; 0.210 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.331      ;
 ; 0.214 ; SC_STATEMACHINEBACKG:SC_STATEMACHINEBACKG_u0|STATE_Register.STATE_START_0                   ; SC_RegBACKGTYPE:SC_RegBACKGTYPE_u2|RegBACKGTYPE_Register[5]                                 ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.036      ; 0.334      ;
@@ -923,10 +923,10 @@ No paths to report.
 ; 0.306 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[4]  ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[4]  ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.427      ;
 ; 0.306 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[8]  ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[8]  ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.427      ;
 ; 0.306 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[14] ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[14] ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.427      ;
-; 0.307 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.428      ;
 ; 0.307 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[10] ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[10] ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.428      ;
 ; 0.307 ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[12] ; matrix_ctrl:matrix_ctrl_unit_0|shift_reg_start_done:shift_reg_start_done_unit_0|cnt_reg[12] ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.428      ;
 ; 0.307 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF2                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|SC_DEBOUNCE1_button_Out                                        ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.428      ;
+; 0.307 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u0|q_reg[10]                                                      ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.428      ;
 ; 0.308 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u4|DFF2                                                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.429      ;
 ; 0.308 ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF1                                                           ; SC_DEBOUNCE1:SC_DEBOUNCE1_u3|DFF2                                                           ; BB_SYSTEM_CLOCK_50 ; BB_SYSTEM_CLOCK_50 ; 0.000        ; 0.037      ; 0.429      ;
 +-------+---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+--------------------+--------------------+--------------+------------+------------+
@@ -1210,7 +1210,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime Timing Analyzer
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Nov 09 22:24:49 2021
+    Info: Processing started: Wed Nov 10 18:49:52 2021
 Info: Command: quartus_sta BB_SYSTEM -c BB_SYSTEM
 Info: qsta_default_script.tcl version: #1
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
@@ -1279,9 +1279,9 @@ Info (332146): Worst-case minimum pulse width slack is 9.271
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4786 megabytes
-    Info: Processing ended: Tue Nov 09 22:24:51 2021
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4787 megabytes
+    Info: Processing ended: Wed Nov 10 18:49:56 2021
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 
